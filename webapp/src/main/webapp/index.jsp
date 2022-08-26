@@ -13,7 +13,7 @@
   <div class="right">
     <span class="loginwith">Sign in with<br />social network</span>
 
-    <button class="social-signin facebook">Log in with facebook</button>
+    <button class="social-signin facebook">Log in with nade TEJA facebook</button>
     <button class="social-signin twitter">Log in with Twitter</button>
     <button class="social-signin google">Log in with Google+</button>
   </div>
