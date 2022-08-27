@@ -4,7 +4,7 @@
     <div class="content">
       <h1>who am i?</h1>
       <p>my name is Vishnu alex devero.</p>
-      <p>i am web designer and developer.</p>
+      <p>i am web designer and DevOps and developer.</p>
       <p>over the years of everyday practice,</p>
       <p>i built solid expertise in html, css and javascript.</p>
       <p>i focus on creating clean and unique design.</p>
