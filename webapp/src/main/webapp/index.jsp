@@ -1,76 +1,49 @@
-body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  background-color: #1b1b32;
-	color: #f5f6f7;
-  font-family: Tahoma;
-	font-size: 16px;
-}
-
-h1, p {
-  margin: 1em auto;
-  text-align: center;
-}
-
-form {
-  width: 60vw;
-	max-width: 500px;
-	min-width: 300px;
-	margin: 0 auto;
-  padding-bottom: 2em;
-}
-
-fieldset {
-  border: none;
-	padding: 2rem 0;
-}
-
-fieldset:not(:last-of-type) {
-  border-bottom: 3px solid #3b3b4f;
-}
-
-label {
-  display: block;
-	margin: 0.5rem 0;
-}
-
-input,
-textarea,
-select {
-  margin: 10px 0 0 0;
-	width: 100%;
-  min-height: 2em;
-}
-
-input, textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
-}
-
-.inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
-}
-
-input[type="submit"] {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
-  min-width: 300px;
-}
-
-input[type="file"] {
-  padding: 1px 2px;
-}
-
-a {
-  color: #dfdfe2;
-}
-
+<div class="wrapper">
+  <input type="checkbox" name="nav-check" id="nav-check" />
+  <section class="sec-about" id="sec-about">
+    <div class="content">
+      <h1>who am i?</h1>
+      <p>my name is alex devero.</p>
+      <p>i am web designer and developer.</p>
+      <p>over the years of everyday practice,</p>
+      <p>i built solid expertise in html, css and javascript.</p>
+      <p>i focus on creating clean and unique design.</p>
+    </div>
+  </section>
+  <section class="sec-portfolio" id="sec-portfolio">
+    <div class="row">
+      <div class="col-big"><img src="http://alexdevero.com/img/_Paraguay--demo--05-paraguay.png" alt="Project Paraguay snapshot" /></div>
+      <div class="col-big"><img src="http://alexdevero.com/img/_Smoothie--demo--04-smoothie.png" alt="Project Smoothie snapshot" /></div>
+    </div>
+    <div class="row">
+      <div class="col-big"><img src="http://alexdevero.com/img/_Stilleto--demo--05-stilleto.png" alt="Project Stilleto  snapshot" /></div>
+      <div class="col-big"><img src="http://alexdevero.com/img/_Salamander--demo--03-salamander.png" alt="Project Salamander snapshot" /></div>
+    </div>
+  </section>
+  <section class="sec-contact" id="sec-contact">
+    <ul class="soc-media">
+      <li><a href="https://twitter.com/AlexDevero" class="fa fa-twitter" target="_blank"></a></li>
+      <li><a href="https://www.facebook.com/lex.devero" class="fa fa-facebook" target="_blank"></a></li>
+      <li><a href="http://postman0.deviantart.com/" class="fa fa-deviantart" target="_blank"></a></li>
+      <li><a href="https://www.behance.net/d3v3r0" class="fa fa-behance" target="_blank"></a></li>
+      <li><a href="mailto:deveroalex@gmail.com" class="fa fa-envelope"></a></li>
+    </ul>
+  </section>
+  <section class="sec-home" id="sec-home">
+    <div class="content">
+      <h1>hi and welcome on my portfolio.</h1>
+      <h2><a href="#sec-about">who</a> am i?</h2>
+      <h2><a href="#sec-portfolio">what</a> i do?</h2>
+      <h2><a href="#sec-contact">where</a> to find me?</h2>
+    </div>
+  </section>
+  <nav role="navigation">
+    <label for="nav-check"></label>
+    <ul class="navigation">
+      <li><a href="#sec-home">home</a></li>
+      <li><a href="#sec-about">about</a></li>
+      <li><a href="#sec-portfolio">portfolio</a></li>
+      <li><a href="#sec-contact">contact</a></li>
+    </ul>
+  </nav>
+</div>
